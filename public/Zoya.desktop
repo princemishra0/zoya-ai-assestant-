@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zoya AI Companion
+Comment=Zoya AI Realtime Voice Companion & Assistant
+Exec=sh -c "google-chrome --app=https://ais-dev-kd6nzz4fwiajnbrwwa7pvx-789735568872.asia-southeast1.run.app || chromium-browser --app=https://ais-dev-kd6nzz4fwiajnbrwwa7pvx-789735568872.asia-southeast1.run.app || chromium --app=https://ais-dev-kd6nzz4fwiajnbrwwa7pvx-789735568872.asia-southeast1.run.app || xdg-open https://ais-dev-kd6nzz4fwiajnbrwwa7pvx-789735568872.asia-southeast1.run.app"
+Icon=applications-multimedia
+Terminal=false
+StartupNotify=true
+Categories=AudioVideo;Utility;Network;
+Actions=NewWindow;
+
+[Desktop Action NewWindow]
+Name=Open in New Window
+Exec=xdg-open https://ais-dev-kd6nzz4fwiajnbrwwa7pvx-789735568872.asia-southeast1.run.app
